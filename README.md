@@ -49,5 +49,6 @@ curl --location --request POST 'http://localhost:9393/tasks/executions' \
 <img width="1023" alt="image" src="https://user-images.githubusercontent.com/84427780/208993568-a1ff1808-70c4-4a17-817f-4234bfd81321.png">
 
 ### Headers
+name - this is the same name you used to create the workflow in the above section
 properties - maps to TimestampTaskProperties.java. You can configure the timestamp to be yyyy, yyyy-MM, yyyy-MM-dd and so on.
 arguments - maps to the public void run(String... strings) of the application.
