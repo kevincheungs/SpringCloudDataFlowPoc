@@ -1,5 +1,14 @@
 # SpringCloudDataFlow (SCDF) POC
 
+## Description
+
+Simple set of programs that when pieced together, write values to a few files. If an error happens, then the values of the files will be overwritten to reflect that.
+
+Description of each App:
+- timestamp - writes to file 1
+- timestamp2 - writes to file 2
+- rollback - overwrites file 1 and 2 with error value
+
 ## Setting up the server on your local (Note: shutting down the server will reset all configs and tasks as its stored in memory unless you connect the server to a database)
 1. Download the latest Jar file
 https://dataflow.spring.io/docs/installation/local/manual/
